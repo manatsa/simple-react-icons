@@ -2,9 +2,10 @@
   "name": "simple-react-icons",
   "version": "1.0.0",
   "description": "React based SVG icons library",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "svgr": "svgr  --icon --title-prop  --replace-attr-values '#000=currentColor' -d src assets"
   },
   "keywords": [
     "React",
