@@ -1,0 +1,20 @@
+{
+  "name": "simple-react-icons",
+  "version": "1.0.0",
+  "description": "React based SVG icons library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "SVG",
+    "icons"
+  ],
+  "author": "Manatsa Chinyeruse",
+  "license": "MIT",
+  "devDependencies": {
+    "@svgr/cli": "^6.2.1",
+    "rimraf": "^3.0.2"
+  }
+}
